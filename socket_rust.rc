@@ -1,0 +1,9 @@
+#[link(name = "socket_rust", vers = "0.0.1", author = "Jared Wyles")];
+
+#[crate_type = "lib"];
+
+#[warn(non_camel_case_types)]
+
+extern mod std;
+
+pub mod WebSocket;
