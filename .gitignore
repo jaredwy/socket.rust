@@ -88,3 +88,5 @@ config.stamp
 src/etc/dl
 .settings/
 build/
+socket
+main
